@@ -1,0 +1,208 @@
+@media only screen and (max-width: 1500px) {
+       .main-container {
+              padding: 0 50px;
+       }
+
+       .hero-section label {
+              font-size: 14px;
+       }
+}
+
+
+@media only screen and (max-width: 1400px) {
+       .hero-section .bx-item {
+              padding: 0 5px;
+       }
+
+       .main-container {
+              padding: 0 20px;
+       }
+}
+
+@media only screen and (max-width: 1200px) {
+       .hero-section label {
+              padding: 8px 11px;
+              font-size: 12px;
+       }
+
+       .hero-section h1 {
+              font-size: 46px;
+              max-width: 670px;
+              margin: 0 auto 10px;
+              width: 100%;
+       }
+
+       .hero-section .selection-bx p {
+              font-size: 18px;
+       }
+
+       .hero-section {
+              padding: 184px 0 152px;
+       }
+
+       .hero-section h4 {
+              font-size: 22px;
+       }
+}
+
+
+@media only screen and (max-width: 992px) {
+       header .hamburger {
+              display: block;
+       }
+
+       header .mb-container {
+              position: fixed;
+              top: 0;
+              left: -100%;
+              width: 100vw;
+              height: 100vh;
+              transition: all 0.5s linear;
+              background-image: url('../images/mobile-menu-bg.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              display: none;
+       }
+
+       header .mb-container.open-menu {
+              left: 0;
+              display: block;
+
+       }
+
+       header .contact {
+              display: none;
+       }
+
+       header .mb-container .contact {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding: 15px 15px 15px;
+              margin: 0 0 20px;
+              border-bottom: 1px solid #fff;
+       }
+
+       header .mb-container .contact>* {
+              flex: 1;
+       }
+
+       header .mb-container .contact>span {
+              text-align: left;
+              flex: 0;
+       }
+
+       header .mb-container .contact>div {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              justify-content: end;
+       }
+
+       header nav {
+              text-align: left;
+       }
+
+       header li {
+              display: block;
+              padding: 15px;
+       }
+
+       header li a.active::before {
+              display: none;
+       }
+
+       .hero-section .item-two,
+       .hero-section .item-one,
+       .hero-section .item-four,
+       .hero-section .item-three {
+              width: 50%;
+       }
+
+       .hero-section .select-bx {
+              margin-top: 20px;
+              gap: 20px 0;
+       }
+
+       .hero-section h4 {
+              font-size: 20px;
+              margin-bottom: 10px;
+       }
+
+       .hero-section .center-btn {
+              margin-top: 20px;
+       }
+
+       .counter {
+              padding: 20px 0 0 0;
+       }
+
+       .hero-section {
+              padding: 150px 0 100px;
+       }
+
+       .slider-section .slide img {
+              height: 40px;
+       }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+       header .logo {
+              max-width: 170px;
+       }
+
+       .hero-section h1 {
+              font-size: 30px;
+              max-width: 320px;
+       }
+
+       .hero-section .selection-bx p {
+              font-size: 16px;
+              line-height: normal;
+              max-width: 400px;
+              margin: auto;
+              width: 100%;
+       }
+
+       .counter strong {
+              font-size: 24px;
+              margin-bottom: 0;
+       }
+
+       .counter>div {
+              padding-left: 15px;
+       }
+
+       .counter {
+              gap: 0 30px;
+       }
+
+       .counter span {
+              font-size: 14px;
+       }
+
+       .hero-section label {
+              padding: 8px 9px;
+       }
+
+       .hero-section h4 {
+              font-size: 18px;
+              margin-bottom: 8px;
+       }
+}
+
+
+@media only screen and (max-width: 576px) {
+       .main-container {
+              padding: 0 15px;
+       }
+
+       .hero-section .item-two,
+       .hero-section .item-one,
+       .hero-section .item-four,
+       .hero-section .item-three {
+              width: 100%;
+       }
+}
