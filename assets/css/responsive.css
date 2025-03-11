@@ -144,6 +144,9 @@
        .slider-section .slide img {
               height: 40px;
        }
+       .slider-section {
+              margin-top: -49px;
+          }
 }
 
 
@@ -191,6 +194,11 @@
               font-size: 18px;
               margin-bottom: 8px;
        }
+
+       .secondary-btn {
+              padding: 14px;
+              font-size: 14px;
+       }
 }
 
 
@@ -204,5 +212,46 @@
        .hero-section .item-four,
        .hero-section .item-three {
               width: 100%;
+       }
+
+       .hero-section .selection-bx p {
+              font-size: 14px;
+       }
+
+       header .logo {
+              max-width: 130px;
+       }
+
+       .hero-section h1 {
+              font-size: 26px;
+       }
+
+       .hero-section .select-bx {
+              gap: 15px 0;
+              padding: 10px 10px;
+       }
+
+       .hero-section h4 {
+              font-size: 14px;
+       }
+
+       .counter strong {
+              font-size: 18px;
+       }
+
+       .counter span {
+              font-size: 12px;
+       }
+
+       .slider-section .brand-slider {
+              padding: 20px;
+       }
+
+       .slider-section {
+              margin-top: -39px;
+       }
+
+       .hero-section {
+              padding: 150px 0 60px;
        }
 }
