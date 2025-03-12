@@ -847,10 +847,11 @@ header .contact a {
 .our-mission h6 {
   color: #1A1A1A;
   font-family: var(--roboto);
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 21px;
   line-height: 27px;
   margin-bottom: 20px;
+  min-height: 55px;
 }
 
 .our-mission .msn-bx p {

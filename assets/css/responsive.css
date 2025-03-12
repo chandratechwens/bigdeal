@@ -30,6 +30,10 @@
               width: 568px;
               padding: 40px;
        }
+
+       .our-mission .msn-bx {
+              padding: 30px 20px 40px;
+       }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -95,6 +99,21 @@
 
        .p-top {
               padding-top: 60px;
+       }
+
+       .our-mission h3 {
+              margin-bottom: 20px;
+              font-size: 30px;
+       }
+
+       .our-mission h6 {
+              font-size: 18px;
+              line-height: 23px;
+              margin-bottom: 10px;
+       }
+
+       .our-mission .msn-bx p {
+              line-height: 24px;
        }
 }
 
@@ -212,6 +231,10 @@
 
        .p-btm {
               padding-bottom: 40px;
+       }
+
+       .our-mission h6 {
+              min-height: auto;
        }
 }
 
@@ -361,5 +384,25 @@
 
        .p-btm {
               padding-bottom: 30px;
+       }
+
+       .our-mission .msn-bx {
+              padding: 0;
+       }
+
+       .our-mission h3 {
+              margin-bottom: 10px;
+              font-size: 24px;
+       }
+
+       .our-mission h6 {
+              font-size: 15px;
+              line-height: 19px;
+              min-height: 39px;
+       }
+
+       .our-mission .msn-bx p {
+              line-height: 18px;
+              font-size: 14px;
        }
 }
