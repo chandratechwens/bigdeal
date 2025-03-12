@@ -150,6 +150,11 @@
        .testimonial-right .testimonial-bx {
               margin-top: 30px;
        }
+
+       .your-opinion .rating-bx span {
+              width: 48px;
+              height: 48px;
+          }
 }
 
 
@@ -356,6 +361,11 @@
               font-size: 16px;
               line-height: 22px;
        }
+
+       .your-opinion .rating-bx span {
+              width: 38px;
+              height: 38px;
+          }
 }
 
 
@@ -489,5 +499,10 @@
 
        .card-slide {
               width: 398px;
+          }
+
+          .your-opinion .rating-bx span {
+              width: 24px;
+              height: 24px;
           }
 }
