@@ -25,6 +25,11 @@
        .slider-container h3 {
               font-size: 40px;
        }
+
+       .card-slide {
+              width: 568px;
+              padding: 40px;
+       }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -76,6 +81,20 @@
 
        .property-card figure {
               margin-bottom: 20px;
+       }
+
+       .slider-container .nav-link {
+              font-size: 16px;
+              font-weight: 600;
+              padding: 15px;
+       }
+
+       .p-btm {
+              padding-bottom: 60px;
+       }
+
+       .p-top {
+              padding-top: 60px;
        }
 }
 
@@ -185,6 +204,14 @@
 
        .about-us {
               padding: 60px 0 60px;
+       }
+
+       .p-top {
+              padding-top: 40px;
+       }
+
+       .p-btm {
+              padding-bottom: 40px;
        }
 }
 
@@ -320,5 +347,19 @@
 
        .slider-container h3 {
               margin-bottom: 10px;
+       }
+
+       .slider-container .nav-link {
+              font-size: 14px;
+              font-weight: 600;
+              padding: 10px;
+       }
+
+       .p-top {
+              padding-top: 30px;
+       }
+
+       .p-btm {
+              padding-bottom: 30px;
        }
 }
