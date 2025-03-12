@@ -445,7 +445,7 @@
        }
 
        .our-mission .msn-bx {
-              padding: 5px;
+              padding: 8px 10px;
        }
 
        .our-mission h3 {
@@ -463,4 +463,31 @@
               line-height: 18px;
               font-size: 14px;
        }
+
+       .others-services .owl-dots {
+              margin-top: 30px;
+       }
+
+       .slider-container .btn-wrap {
+              margin-bottom: 40px;
+       }
+
+       .primary-btn,
+       .ouline-btn {
+              padding: 10px 16px;
+              font-size: 14px;
+              font-weight: 600;
+       }
+
+       .property-card .content-bx p {
+              margin-bottom: 15px;
+       }
+
+       .our-mission .center-content p {
+              line-height: 23px;
+       }
+
+       .card-slide {
+              width: 398px;
+          }
 }
