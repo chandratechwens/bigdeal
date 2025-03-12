@@ -21,7 +21,8 @@
        .heading-lg {
               font-size: 50px;
        }
-       .slider-container h3{
+
+       .slider-container h3 {
               font-size: 40px;
        }
 }
@@ -51,7 +52,8 @@
               font-size: 22px;
        }
 
-       .heading-lg {
+       .heading-lg,
+       .slider-container h3 {
               font-size: 36px;
               line-height: 46px;
        }
@@ -62,6 +64,18 @@
 
        .about-us {
               padding: 80px 0 80px;
+       }
+
+       .property-card .content-bx h4 {
+              font-size: 26px;
+       }
+
+       .property-card .content-bx {
+              padding: 0 15px 20px;
+       }
+
+       .property-card figure {
+              margin-bottom: 20px;
        }
 }
 
@@ -228,6 +242,12 @@
        .about-us {
               padding: 40px 0 40px;
        }
+
+       .heading-lg,
+       .slider-container h3 {
+              font-size: 26px;
+              line-height: 32px;
+       }
 }
 
 
@@ -286,5 +306,19 @@
 
        .about-us {
               padding: 30px 0 30px;
+       }
+
+       p {
+              font-size: 14px;
+       }
+
+       .heading-lg,
+       .slider-container h3 {
+              font-size: 20px;
+              line-height: 26px;
+       }
+
+       .slider-container h3 {
+              margin-bottom: 10px;
        }
 }
