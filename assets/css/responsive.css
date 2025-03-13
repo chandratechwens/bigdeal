@@ -602,4 +602,7 @@
        .copy-right {
               margin-top: 30px;
        }
+       .your-opinion p{
+              line-height: normal;
+       }
 }
