@@ -1398,6 +1398,12 @@ footer .wrap ol li {
   height: 24px;
 }
 
+footer .wrap ol li svg > *{
+  transition: all 0.3s linear;
+}
+footer .wrap ol li a:hover svg > *{
+  fill: var(--danger-color);
+}
 .copy-right {
   margin-top: 50px;
   padding: 25px 0;
